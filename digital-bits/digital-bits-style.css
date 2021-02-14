@@ -1,0 +1,109 @@
+h1 {
+	font-family: Helvetica;
+	/*text-align: center;*/
+	text-decoration: overline;
+}
+
+body {
+	font-size: 80px;
+	padding-top: 50px;
+  	padding-right: 30px;
+  	padding-bottom: 50px;
+  	padding-left: 80px;
+}
+
+.camera {
+	position: absolute;
+	width: 1200px;
+	height: 800px;
+	/*background: blue;*/
+  	padding-left: 1000px;
+
+}
+
+.rectangle {
+    width: 700px;
+    height: 400px;
+    background: #ded4d5;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.rubber-handle {
+    position: absolute;
+    background: black;
+    opacity: .75;
+    width: 170px;
+    height: 330px;
+    top: 170px;
+    left: 150px;
+    border-radius: 0px 23px 20px 20px;
+}
+
+.viewfinder1 {
+    position: absolute;
+    top: 107px;
+    left: 370px;
+    background: black;
+    opacity: .2;
+    width: 110px;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.viewfinder2 {
+	position: absolute;
+    top: 117px;
+    left: 620px;
+    background: black;
+    opacity: .2;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.viewfinder3 {
+    position: absolute;
+    top: 138px;
+    left: 753px;
+    background: black;
+    opacity: .2;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.lens {
+	position: absolute;
+    top: 180px;
+    left: 391px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: black;
+    opacity: .5;
+}
+
+.lens2 {
+	position: absolute;
+    top: 211px;
+    left: 422px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: white;
+    opacity: .5;
+}
+
+.dial1 {
+    position: absolute;
+    top: 80px;
+    left: 193px;
+    background: #986a6a;
+    opacity: .8;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
