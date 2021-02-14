@@ -1,7 +1,20 @@
 body {
-	background: brown;
+	background: #afceaf;
+	font-family: Helvetica;
 }
 
+:is(h1, h2, h3, h4, h5, h6){
+	color: white;
+}
+
+h1 {
+	font-size: 90px;
+}
 p{
-	color: orange;
+	color: #ff5722;
+}
+
+#exercises #projects {
+font-size: large;
+
 }
