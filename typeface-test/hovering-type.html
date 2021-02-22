@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hovering Type</title>
+    <link href="hovering-type.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   
+    <div class="bounding-box-A bounding-box" id="a">
+      <div id="b"></div>
+      <div class="left-vertical-stroke-A"></div>
+      <div class="right-vertical-stroke-A"></div>
+      <div class="top-horizontal-stroke-A"></div>
+      <div class="middle-horizontal-stroke-A"></div>
+
+      <style>
+        div#b {
+          display: none;
+        }
+
+        div.a:hover div#b {
+          display: block;
+          mix-blend-mode: multiply;
+          transition-timing-function: ease;
+        }
+      </style>
+
+    </div>
+
+    
+    <div class="bounding-box-F bounding-box">
+      <div class="left-vertical-stroke-F"></div>
+      <div class="top-horizontal-stroke-F"></div>
+      <div class="middle-horizontal-stroke-F"></div>
+    </div>
+
+    <div class="bounding-box-K bounding-box">
+      <div class="left-vertical-stroke-K"></div>
+      <div class="middle-K"></div>
+      <div class="top-stroke-K-1"></div>
+      <div class="top-stroke-K-2"></div>
+      <div class="bottom-stroke-K-1"></div>
+      <div class="bottom-stroke-K-2"></div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+<div id="a">
+    <div id="b"></div>
+</div>
+
+<style>
+#b{display:none;}
+div#a:hover div#b{display:inline}
+</style>
