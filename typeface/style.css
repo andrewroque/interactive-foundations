@@ -61,7 +61,8 @@
 .red{
 	position: relative;
 	background:red;
-	opacity: 0;
+	opacity: 0
+;
 	top:0;
 	transition: top ease 0.5s
 }
