@@ -1,0 +1,385 @@
+@font-face {
+	src: "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+	font-family: Bebas Neue;
+}
+*{
+	background: black;
+	font-family: Bebas Neue;
+	color: white;
+	padding-left: 10px;
+}
+
+.html:active .red{
+	opacity: 1;
+}
+
+.video-wall{
+	padding-top: 100px
+	margin: auto;
+
+}
+
+.movie {
+	width: 400px;
+	height: auto;
+	display: block;
+	float: left;
+	padding: 10px;
+	pointer-events: none
+}
+
+.right-margin {
+	margin-right: 400px;
+}
+
+
+/* ---------------------143 143 143-------------------------------*/
+
+
+
+.one-four-three {
+	width: 100%;
+    height: 100%;
+    background: transparent; 
+    /*transform: scale(1);*/ 
+}
+
+.centered{
+	position: absolute;
+    top: 45% ;
+    left: 50%;
+    transform-origin: center;
+    align-content: center;
+    transform: translate(-50%, -50%);
+}
+
+.stroke{
+	background: pink
+	/*stroke: none;*/
+}
+
+.red{
+	position: relative;
+	background:red;
+	opacity: 0;
+	top:0;
+	transition: top ease 0.5s
+}
+
+.one-four-three:active .red{
+		opacity: 1;
+		top:15px;
+}
+/* ---------------------BOUNDING BOX-------------------------------*/
+
+.boudning-box{
+	background: transparent;
+}
+/* ---------------------ONE ONE ONE-------------------------------*/
+
+
+#one {
+	width: 200px;
+    height: 200px;
+    position: relative;
+    background: transparent;
+    top: 0px;
+    left: 100px;
+}
+
+#one-one {
+	width: 10px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+
+#one-two {
+	width: 90px;
+    height: 20px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+#one-three {
+	width: 20px;
+    height: 20px;
+    position: relative;
+	top: -70px;
+    left: 50px;
+}
+
+#one-four {
+	width: 10px;
+    height: 80px;
+    position: relative;
+	top: -70px;
+    left: 100px;	
+}
+
+#one-five {
+    width: 10px;
+    height: 90px;
+    position: relative;
+    top: -150px;
+    left: 60px;	
+}
+
+#one-six {
+	width: 30px;
+    height: 20px;
+    position: relative;
+    top: -180px;
+    left: 20px;
+}	
+
+#one-seven {
+	width: 30px;
+    height: 20px;
+    position: relative;
+    top: -200px;
+    left: 100px;
+}
+
+#one-eight {
+    width: 10px;
+    height: 50px;
+    position: relative;
+	top: -200px;
+    left: 20px;
+}
+
+#one-nine {
+    width: 10px;
+    height: 50px;
+    position: relative;
+	top: -270px;
+    left: 140px;
+}
+
+#one-ten {
+    width: 10px;
+    height: 30px;
+    position: relative;
+	top: -380px;
+    left: 50px;
+}
+
+/* ---------------------FOUR FOUR FOUR-------------------------------*/
+
+#four {
+	width: 200px;
+    height: 200px;
+    position: relative;
+    background: transparent;
+    top: -200px;
+    left: 310px;
+}
+
+#four-one {
+    width: 10px;
+    height: 122px;
+    position: relative;
+    top: 50px;
+    left: 130px;
+}
+
+#four-two {
+    width: 90px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 50px;
+}
+
+#four-three {
+	width: 5px;
+    height: 80px;
+    position: relative;
+    top: -90px;
+    left: 40px;
+}
+
+#four-four {
+    width: 30px;
+    height: 50px;
+    position: relative;
+    top: -160px;
+    left: 55px;
+}
+
+#four-five {
+	width: 10px;
+    height: 80px;
+    position: relative;
+    top: -180px;
+    left: 95px;
+}
+
+#four-six {
+    width: 5px;
+    height: 50px;
+    position: relative;
+    top: -289px;
+    left: 115px;
+}
+
+#four-seven {
+    width: 70px;
+    height: 10px;
+    position: relative;
+    top: -232px;
+    left: 45px;
+}
+
+#four-eight {
+    width: 50px;
+    height: 10px;
+    position: relative;
+    top: -251px;
+    left: 55px;
+}
+
+/* ---------------------THREE THREE THREE-------------------------------*/
+
+#three {
+	width: 200px;
+    height: 200px;
+    position: relative;
+    background: transparent;
+    top: -400px;
+    left: 520px;
+}
+
+#three-one {
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: 50px;
+    left: 55px;
+}
+
+#three-two {
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 55px;
+}
+
+#three-three {
+    width: 20px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 135px;
+}
+
+#three-four {
+    width: 40px;
+    height: 20px;
+    position: relative;
+    top: -30px;
+    left: 85px;
+}
+
+#three-five {
+    width: 40px;
+    height: 20px;
+    position: relative;
+    top: -90px;
+    left: 115px;
+}
+
+#three-six {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -110px;
+    left: 55px;
+}
+
+#three-seven {
+    width: 5px;
+    height: 30px;
+    position: relative;
+    top: -110px;
+    left: 55px;
+}
+
+#three-eight {
+    width: 80px;
+    height: 10px;
+    position: relative;
+    top: -60px;
+    left: 25px;
+}
+
+#three-nine{
+    width: 50px;
+    height: 10px;
+    position: relative;
+    top: -70px;
+    left: 125px;
+}
+
+#three-ten{
+	width: 20px;
+    height: 20px;
+    position: relative;
+    top: -100px;
+    left: 145px;
+}
+
+#three-eleven{
+    width: 30px;
+    height: 20px;
+    position: relative;
+    top: -140px;
+    left: 95px;
+}
+
+#three-twelve{
+	width: 30px;
+    height: 20px;
+    position: relative;
+    top: -240px;
+    left: 135px;
+}
+
+#three-thirteen{
+    width: 0px;
+    height: 80px;
+    position: relative;
+    top: -240px;
+    left: 165px;
+}
+
+#three-fourteen{
+	width: 10px;
+    height: 20px;
+    position: relative;
+    top: -240px;
+    left: 95px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,20 +1,8 @@
+/*@font-face {
+	src: url(fonts/NAME);
+	font-family: name;
+}*/
 body {
-	background: #afceaf;
-	font-family: Helvetica;
+	background: pink;
 }
-
-:is(h1, h2, h3, h4, h5, h6){
-	color: white;
-}
-
-h1 {
-	font-size: 90px;
-}
-p{
-	color: #ff5722;
-}
-
-#exercises #projects {
-font-size: large;
-
-}
+/*in paragraph add font-family to*/
