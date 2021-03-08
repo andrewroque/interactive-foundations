@@ -1,22 +1,46 @@
 @font-face {
-	src: "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
-	font-family: Bebas Neue;
+  font-family: degular;
+  src: url(fonts/DegularDemo-Regular.otf);
 }
+
+/*div {
+  font-family: myFirstFont;
+}*/
+
+
 *{
 	background: black;
-	font-family: Bebas Neue;
+	font-family: degular;
 	color: white;
 	padding-left: 10px;
+}
+
+.options {
+	font-size: x-large;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	position: fixed;
+	background:transparent;
+
+}
+
+p {
+	padding-left: 20px;
+	font-size: 18pt;
 }
 
 .html:active .red{
 	opacity: 1;
 }
 
-.video-wall{
-	padding-top: 100px
-	margin: auto;
+/* ---------------------VIDEO WALL-------------------------------*/
 
+.video-wall{
+	top: 50vh;
+    left: 50vw;
+	padding-top: 50px;
+	padding-left: 18px;
 }
 
 .movie {
@@ -55,6 +79,7 @@
 	width: 800px;
     height: 800px;
     background: transparent; 
+    padding-top: 600px;
     /*transform: scale(1);*/ 
 }
 
@@ -377,13 +402,77 @@
 }
 
 
+/* ---------------------ALPHABET-------------------------------*/
 
 
+.alphabet {
+    width: 400px;
+    height: 800px;
+    position: absolute;
+    background: transparent;
+    align-content: center;
+    top: 187px;
+    left: 400px;
+}
+
+p {
+	padding-bottom: 30px;
+	padding-left: 30px;
+
+}
+
+.bleed{
+	width: 204px;
+    height: auto;
+    background: transparent;
+    position: relative;
+    top: -424px;
+    left: 53px;
+    opacity: 1;
+}
+
+.reg-alphabet {
+	width: 200px;
+    height: auto;
+    background: transparent;
+    position: relative;
+    top: 69px;
+    left: 55px;
+}
+
+/*.bleed:hover {
+	transfrom: (0px, 200px);
+}*/
 
 
+.forms {
+    width: 400px;
+    height: auto;
+    top: 60px;
+    left: -352px;
+    position: absolute;
+}
 
+.bleed{
+	width: 410px;
+    height: auto;
+}
 
+.alphabet:hover .bleed{
+	left:100px; 
+	opacity: 0.5;
+	transition: left 5s ease-in-out;
+	transition: opacity 30s ease-in-out;
+	}
 
+.homepage {
+	/*font-size: small;*/
+
+}
+
+.about-text {
+	padding-bottom: 20px;
+}
 
 
 
