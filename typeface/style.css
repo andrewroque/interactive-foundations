@@ -32,22 +32,36 @@
 	margin-right: 400px;
 }
 
+/* ---------------------CONTAINER-------------------------------*/
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background: transparent;
+}
+.container:active .red{
+		opacity: 1;
+		top:15px;
+
+	}
+
 
 /* ---------------------143 143 143-------------------------------*/
 
 
 
 .one-four-three {
-	width: 100%;
-    height: 100%;
+	width: 800px;
+    height: 800px;
     background: transparent; 
     /*transform: scale(1);*/ 
 }
 
 .centered{
-	position: absolute;
-    top: 45% ;
-    left: 50%;
+	position: fixed;
+    top: 50vh;
+    left: 50vw;
     transform-origin: center;
     align-content: center;
     transform: translate(-50%, -50%);
@@ -61,19 +75,15 @@
 .red{
 	position: relative;
 	background:red;
-	opacity: 0
-;
+	opacity: 0;
 	top:0;
 	transition: top ease 0.5s
 }
 
-.one-four-three:active .red{
-		opacity: 1;
-		top:15px;
-}
+
 /* ---------------------BOUNDING BOX-------------------------------*/
 
-.boudning-box{
+.bounding-box{
 	background: transparent;
 }
 /* ---------------------ONE ONE ONE-------------------------------*/
