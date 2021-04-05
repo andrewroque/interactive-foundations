@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+​
+<head>
+	<title>[Missed Connections] Missed Connections</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+  	<script src="script.js"></script>
+
+	<style>
+		body {
+			margin: 0;
+		}
+​
+		img, a {
+			display: block;
+			width: 30px;
+			height: 30px;
+		}
+​
+		.x {
+			animation: x 5s linear infinite alternate;
+		}
+​
+		.y {
+			animation: y 3s linear infinite alternate;
+		}
+​
+​
+		@keyframes x {
+			100% {
+				transform: translateX(calc(100vw - 15px));
+			}
+		}
+		@keyframes y {
+			100% {
+				transform: translateY(calc(100vh - 15px));
+			}
+		}
+​
+	</style>		
+​
+</head>
+​
+<body>
+​
+	<a class="x" href="http://google.com">
+		<img class="y" src="images/alien.gif" alt="ball" />
+	</a>
+​
+</body>
+</html>
+​

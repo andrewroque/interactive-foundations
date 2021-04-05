@@ -1,0 +1,98 @@
+body {
+  /*background-image: url("images/space.jpeg");*/
+  background-image: url("images/giphy.gif");
+  margin: 0;
+}
+
+h1{
+	background: purple;
+	color: white;
+	opacity: 0.5;
+	font-size: 80px;
+	padding: 0;
+
+}
+		a {
+			display: block;
+			width: 30px;
+			height: 30px;
+
+		}
+
+		b {
+			display: block;
+			top:600px;
+			left: 800px;
+		}
+
+		.test{
+			target-new:tab;
+		}
+
+		.randomX1 {
+			animation: x 50s linear infinite alternate;
+		}
+
+		.randomY1 {
+			animation: y 20s linear infinite alternate;
+		}
+
+		.randomX2 {
+			animation: x 15s linear infinite alternate;
+		}
+
+		.randomY2 {
+			animation: y 8s linear infinite alternate;
+		}
+
+		.randomX3 {
+			animation: x 14s linear infinite alternate;
+		}
+
+		.randomY3 {
+			animation: y 30s linear infinite alternate;
+		}
+
+		.randomX4 {
+			animation: x 60s linear infinite alternate;
+		}
+
+		.randomY4 {
+			animation: y 15s linear infinite alternate;
+		}
+
+		.randomX5 {
+			animation: x 70s linear infinite alternate;
+		}
+
+		.randomY5 {
+			animation: y 10s linear infinite alternate;
+		}
+
+		.randomX6 {
+			animation: x 5s linear infinite alternate;
+		}
+
+		.randomY6 {
+			animation: y 40s linear infinite alternate;
+		}
+
+		.randomX7 {
+			animation: x 3s linear infinite alternate;
+		}
+
+		.randomY7 {
+			animation: y 3s linear infinite alternate;
+		}
+ 
+
+		@keyframes x {
+			100% {
+				transform: translateX(calc(100vw - 15px));
+			}
+		}
+		@keyframes y {
+			100% {
+				transform: translateY(calc(100vh - 15px));
+			}
+		}
