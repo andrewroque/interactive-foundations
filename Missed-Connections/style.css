@@ -4,26 +4,30 @@ body {
   margin: 0;
 }
 
-h1{
-	background: purple;
+p {
+	/*background: purple;*/
 	color: white;
-	opacity: 0.5;
-	font-size: 80px;
+	opacity: .8;
+	font-size: 20px;
 	padding: 0;
+	padding-left: 200px;
+	top:-100px;
 
 }
 		a {
 			display: block;
 			width: 30px;
 			height: 30px;
+			padding: 10px;
+
 
 		}
 
-		b {
+/*		b {
 			display: block;
 			top:600px;
 			left: 800px;
-		}
+		}*/
 
 		.test{
 			target-new:tab;
@@ -42,7 +46,7 @@ h1{
 		}
 
 		.randomY2 {
-			animation: y 8s linear infinite alternate;
+			animation: y 20s linear infinite alternate;
 		}
 
 		.randomX3 {
