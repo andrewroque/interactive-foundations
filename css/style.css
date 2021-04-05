@@ -1,8 +1,17 @@
 /*@font-face {
-	src: url(fonts/NAME);
-	font-family: name;
+	src: url(/fonts/Stag-Sans-Medium.otf);
+	font-family: stag;
+
 }*/
+
+* {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+
 body {
 	background: pink;
 }
+
 /*in paragraph add font-family to*/
