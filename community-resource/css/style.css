@@ -45,7 +45,7 @@ a {
 }
 
 #globe {
-	height: 90px;
+	height: 85px;
 	width: auto;
 	align-content: left;
 	display: absolute;
@@ -78,6 +78,7 @@ a {
 
 #email{
 	color: black;
+	padding-bottom: 10px;
 	}
 
 #DAW {
