@@ -1,0 +1,58 @@
+*{
+	background: pink;
+	font-family: Helvetica;
+}
+
+.container{
+	/*background: yellow;*/
+	height: 100vh;
+	/*width: 100vw;*/
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.box {
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+	padding: 20px;
+	height: 100vh;
+	flex: 1;
+}
+
+.box:first-child{
+	display: fixed;
+
+}
+
+.box:second-child{
+	flex: 2;
+}
+
+.video{
+	/*position: fixed;*/
+}
+
+.interview{
+	font-family: Times New Roman;
+	right: 1000px;
+	top: 800px;
+}
+
+p{
+	color: green;
+	font-size: large;
+}
+
+.AR{
+	color: magenta;
+	font-style: italic;
+}
+
+.RTO {
+	color: blue;
+}
+
+h1{
+	color: magenta;
+	font-size: 80px;
+}

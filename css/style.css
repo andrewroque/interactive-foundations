@@ -14,4 +14,9 @@ body {
 	background: pink;
 }
 
+
+body.darkmode {
+    background: black;
+    color: yellow;
+}
 /*in paragraph add font-family to*/
