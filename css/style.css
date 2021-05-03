@@ -20,3 +20,7 @@ body.darkmode {
     color: yellow;
 }
 /*in paragraph add font-family to*/
+
+div {
+    cursor:cell;
+}
