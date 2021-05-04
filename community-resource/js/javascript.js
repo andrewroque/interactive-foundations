@@ -1,24 +1,18 @@
 // alert("I am an alert box!");
 
 
-function randomize() {
-	for (var i = rando.children.length; i >= 0; i--) {
-		rando.appendChild(rando.children[Math.random() * i | 0]); 
-	}
-}
-function makeVis(j) {
-	var photo = rando.children[j].firstElementChild;
-	setTimeout(function() { photo.classList.add("visible"); }, 700 * j);
-}
-function sequentize(){
-	for (var j = 0; j <= rando.children.length; ++j) 
-	makeVis(j);
-}
-function fsort() {
-	randomize();
-	sequentize();
-}
-They are fed with and called by two lines of JavaScript:
+$(document).ready(function(){
 
-var rando = document.getElementByClass('button');
-fsort();
+
+     // random order
+     var buttons = $('.button');
+
+     console.log(buttons);
+     for(var i = 0; i < buttons.length; i++){
+     	var target = Math.floor(Math.random() * buttons.length -1) + 1;
+     	var target2 = Math.floor(Math.random() * buttons.length -1) +1;
+     	buttons.eq(target).before(buttons.eq(target2));
+     }	
+
+
+ });
