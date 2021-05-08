@@ -1,26 +1,79 @@
-/*@font-face {
-	src: url(/fonts/Stag-Sans-Medium.otf);
-	font-family: stag;
+@font-face {
+  font-family: futura;
+  src: url(css/Futura.ttc);
+}
 
-}*/
 
-* {
+*{
+	background: w;
+	font-family: 'JetBrains Mono', monospace;
+	color: black;
+	padding-left: 10px;
+}
+
+/** {
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Roboto Slab', serif;
 }
+*/
 
 
-body {
-	background: pink;
-}
 
 
 body.darkmode {
     background: black;
-    color: yellow;
+    color: orange;
 }
-/*in paragraph add font-family to*/
+
 
 div {
     cursor:cell;
+}
+
+#container0 {
+	background-image: url("Riso_FlourGreen.png");
+	width: 800px;
+	height: 1000px;
+	/*border: 1px solid yellow;*/
+	background: transparent;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+/*#container1 {
+	width: 1400px;
+	height: 600px;
+	border: 1px solid yellow;
+	display: flex;
+	flex-grow: 1
+	/*flex-direction: row;*/
+	flex-wrap: wrap;
+	background: transparent;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+  	margin-right: auto;
+}*/
+
+li {
+	border:2px solid yellow;
+	width:100px;
+	height: 50px;
+	border-radius: 15px;
+	display: flex;
+	flex-grow: 1
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	/*padding: 20px*/
+	/*padding-top: 3%;*/
+	font-size: medium;
+
+}
+
+button {
+	justify-content: right;
 }
