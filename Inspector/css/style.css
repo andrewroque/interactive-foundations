@@ -1,0 +1,24 @@
+body {
+	background-color: purple;
+}
+
+
+.images {
+	width: 50vw;
+}
+p {
+	font-family: arial;
+	color: white;
+
+}
+
+.grid {
+	flex-wrap: wrap;
+	width: 800px;
+	/*height: 100vh;*/
+	margin: 100px auto;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
